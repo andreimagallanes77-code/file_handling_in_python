@@ -6,7 +6,7 @@ class NumberSeparator:
         self.odd_filename = "odd.txt"
 
     def separate_numbers(self):
-        source_file = open(self.source_filename, "w")
+        source_file = open(self.source_filename, "r")
         even_file = open(self.even_filename, "w")
         odd_file = open(self.odd_filename, "w")
 
