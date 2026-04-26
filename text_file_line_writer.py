@@ -9,5 +9,5 @@ class MyLifeWriter:
 
             more_lines = input("Are there more lines y/n? ")
 
-            if more_lines == "n":
+            if more_lines.lower() == "n":
                 break
