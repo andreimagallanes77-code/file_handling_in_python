@@ -11,3 +11,14 @@ class MyLifeWriter:
 
             if more_lines.lower() == "n":
                 break
+
+        file.close()
+        print("Lines saved to mylife.txt")
+
+
+def main():
+    writer = MyLifeWriter()
+    writer.write_lines()
+
+
+main()
