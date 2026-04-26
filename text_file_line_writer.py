@@ -6,3 +6,8 @@ class MyLifeWriter:
         while True:
             line_text = input("Enter line: ")
             file.write(line_text + "\n")
+
+            more_lines = input("Are there more lines y/n? ")
+
+            if more_lines == "n":
+                break
