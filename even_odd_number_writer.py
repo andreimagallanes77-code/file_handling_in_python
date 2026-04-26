@@ -28,7 +28,6 @@ class NumberSeparator:
 
         print("\nDone! Numbers saved to even.txt and odd.txt")
 
-
 def main():
     number_separator = NumberSeparator()
     number_separator.separate_numbers()
