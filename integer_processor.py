@@ -14,3 +14,15 @@ class IntegerProcessor:
             else:
                 cubed_value = number_value ** 3
                 triple_file.write(str(cubed_value) + "\n")
+
+        source_file.close()
+        double_file.close()
+        triple_file.close()
+
+        print("Processing complete. Files created: double.txt and triple.txt")
+
+def main():
+        processor = IntegerProcessor()
+        processor.process_numbers()
+
+main()
