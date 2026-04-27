@@ -32,5 +32,4 @@ def main():
     number_separator = NumberSeparator()
     number_separator.separate_numbers()
 
-
 main()
